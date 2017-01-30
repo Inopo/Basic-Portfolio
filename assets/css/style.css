@@ -1,6 +1,7 @@
 body {
 	width: 960px;
 	font-family: Arial; 
+	color: #777777;
 }
 
 #Name {
@@ -14,9 +15,23 @@ text-align: center;
 margin-left: 125px;
 }
 nav {
-	float: right;
-	color: red;
+float: right;
+margin-bottom: 20px;
+
+
 
 }
 
+header {
+	height: 72px;
+}
+
+#aboutheader {
+	font-family: Georgia;
+	color: #4aaaa5;
+}
+#connectheader {
+	font-family: Georgia;
+	color: #4aaaa5;
+}
 
