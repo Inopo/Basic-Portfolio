@@ -3,56 +3,68 @@ body {
 	font-family: Arial; 
 	color: #777777;
 }
+header {
+
+	overflow: auto; 
+    /*float: left; */
+	/*clear: both;*/
+	/*height: 72px;*/
+	width: 960px;
+
+    border-style: solid;
+    border-color: red;
+    border size: 1px; 
+}
 
 #Name {
-background: #4aaaa5;
-font-family: Georgia;
-color: white;
-width: 195px;
-height: 70px;
-line-height: 70px;
-text-align: center;
-margin-left: 125px;
+    background: #4aaaa5;
+    font-family: Georgia;
+    color: white;
+    width: 195px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    margin-left: 125px;
+    margin-bottom: 0px;
 }
 
 nav {
-
-	border-style: solid;
+	/* float: left; */ 
+	/* border-style: solid;
 	border-color: red;
-	border size: 1px;
+	border size: 1px; */ 
 	/* overflow: auto; */
 }
 
 ul {
-/* overflow: auto; */
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-width: 300px;
-/* border-style: solid;
-border-color: red;
-border size: 1px; */
+    /* overflow: auto; */
+    /* position: relative;
+    right: -600px;
+    bottom: 50px; */
+    float: left; 
+    list-style-type: none;
+    margin-left: 400px;
+    padding: 0;
+    /* overflow: hidden;*/
+    width: 300px;
+    /* border-style: solid;
+    border-color: red;
+    border size: 1px; */
 }
 
 li {
-	/* float: left; */
+	float: left; 
 }
 
 li a {
-display: block;
-text-align: center;
-padding: 10px;
+    display: block;
+    text-align: center;
+    padding: 10px;
 
 }
+.wrapper {
 
-
-
-
-header {
-   /* float: left; */
-	clear: both;
-	height: 72px;
+	background-image: url('../images/cork-wallet.png');
 }
 
 #aboutheader {
