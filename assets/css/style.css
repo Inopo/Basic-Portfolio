@@ -14,25 +14,43 @@ line-height: 70px;
 text-align: center;
 margin-left: 125px;
 }
+
+nav {
+
+	border-style: solid;
+	border-color: red;
+	border size: 1px;
+	/* overflow: auto; */
+}
+
 ul {
-float: left;
+/* overflow: auto; */
 list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
-width: 200px;
+width: 300px;
 /* border-style: solid;
 border-color: red;
 border size: 1px; */
 }
 
 li {
-	float: right;
+	/* float: left; */
+}
+
+li a {
+display: block;
+text-align: center;
+padding: 10px;
+
 }
 
 
-header {
 
+
+header {
+   /* float: left; */
 	clear: both;
 	height: 72px;
 }
