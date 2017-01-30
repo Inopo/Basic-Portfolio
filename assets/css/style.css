@@ -15,15 +15,25 @@ text-align: center;
 margin-left: 125px;
 }
 ul {
-
+float: left;
 list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+width: 200px;
+/* border-style: solid;
+border-color: red;
+border size: 1px; */
 }
 
 li {
-	float: left;
+	float: right;
 }
 
+
 header {
+
+	clear: both;
 	height: 72px;
 }
 
