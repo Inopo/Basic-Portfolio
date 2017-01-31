@@ -21,15 +21,16 @@ header {
     font-family: Georgia;
     color: white;
     width: 195px;
-    height: 70px;
-    line-height: 70px;
-    text-align: center;
+    float: left;
+    /* height: 70px;
+    line-height: 70px; */
+    text-align: center; 
     margin-left: 125px;
-    margin-bottom: 0px;
 }
 
 nav {
-	/* float: left; */ 
+	/*float: right; */
+    margin-bottom: 0px;
 	/* border-style: solid;
 	border-color: red;
 	border size: 1px; */ 
@@ -41,7 +42,7 @@ ul {
     /* position: relative;
     right: -600px;
     bottom: 50px; */
-    float: left; 
+    /* float: left;*/ 
     list-style-type: none;
     margin-left: 400px;
     padding: 0;
@@ -56,10 +57,11 @@ li {
 	float: left; 
 }
 
-li a {
+ li a {
+    clear: both; 
     display: block;
     text-align: center;
-    padding: 10px;
+    padding: 10px; 
 
 }
 .wrapper {
