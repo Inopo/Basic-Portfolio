@@ -71,31 +71,40 @@ li {
     display: block;
     text-align: center;
     padding: 10px; 
-    border-right: 1px solid #cacaca;
+    
 
+}
+#navwithborder {
+    border-right: 1px solid #dddddd;
 }
 .wrapper {
     overflow: auto;
     margin-top: 0px;
-    border-top: 2px solid #cacaca;
+    border-top: 2px solid #dddddd;
 	background-image: url('../images/cork-wallet.png');
+    /*background-image: url('../images/ege.png');*/
 }
 #main {
+    
     float: left;
     width: 650px;
 }
 #sidebar {
+    background-color: white;
     float: left;
     width: 270px;
 }
 #aboutheader {
+    background-color: white;
 	font-family: Georgia;
 	color: #4aaaa5;
     margin-top: 0
 }
 #connectheader {
-	font-family: Georgia;
+	
+    font-family: Georgia;
 	color: #4aaaa5;
+    margin:0px;
 }
 
 footer {
