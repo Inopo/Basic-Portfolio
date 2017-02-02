@@ -101,7 +101,9 @@ li {
 #main {
     
     float: left;
-    width: 620px;
+    width: 550px;
+    background-color: white;
+    margin-left: 60px;
 
    /* border-style: solid;
     border-color: red;
