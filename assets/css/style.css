@@ -93,20 +93,20 @@ li {
     border-top: 2px solid #dddddd;
 	background-image: url('../images/cork-wallet.png');
     /*background-image: url('../images/ege.png');*/
-        border-style: solid;
+    /*border-style: solid;
     border-color: red;
 
-    border size: 1px; 
+    border size: 1px; */
 }
 #main {
     
     float: left;
     width: 620px;
 
-    border-style: solid;
+   /* border-style: solid;
     border-color: red;
 
-    border size: 1px; 
+    border size: 1px; */
 }
 #sidebar {
     background-color: white;
@@ -115,8 +115,21 @@ li {
     height: 189px;
     margin-left: 30px;
 
-    border-style: solid;
+    /*border-style: solid;
     border-color: red;
+
+    border size: 1px; */
+}
+#logos {
+
+    padding: 15px;
+    height: 120px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: solid;
+    border-color: #DCDCDC;
 
     border size: 1px; 
 }
@@ -129,8 +142,10 @@ li {
 #connectheader {
 	
     font-family: Georgia;
+    text-align: center;
 	color: #4aaaa5;
     margin:0px;
+    padding: 5px;
 }
 
 footer {
