@@ -110,7 +110,7 @@ li {
     margin-top: 30px;
     padding: 30px;
 
-   /* border-style: solid;
+   /*border-style: solid;
     border-color: red;
 
     border size: 1px; */
@@ -148,6 +148,22 @@ li {
 	color: #4aaaa5;
     margin-top: 0
 
+}
+#resimyazi {
+    overflow: auto;
+    border-top: solid;
+    border-color: #DCDCDC;
+    border size: 1px; 
+    /*border-style: solid;
+    border-color: red;
+
+    border size: 1px; */
+
+
+}
+
+#profilephoto {
+    margin-top: 30px;
 }
 
 .satir {
