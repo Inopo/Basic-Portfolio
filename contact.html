@@ -24,12 +24,11 @@
 <!-- I have no idea in terms of how to put About etc side to side -->
         
             <ul>
-                <li> <a id="navwithborder">About</a> </li>
-                <li> <a id="navwithborder">Portfolio</a> </li>
-                <li> <a> Contact</a> </li>
+                <li> <a id="navwithborder" href="#">About</a> </li>
+                <li> <a id="navwithborder" href="#">Portfolio</a> </li>
+                <li> <a href="#"> Contact</a> </li>
                 
-            </ul>
-            
+            </ul>            
         
        
 
@@ -40,27 +39,31 @@
             <section id="main">
                 <h2 id="aboutheader">Contact</h2>
                     <div id="resimyazi">
-                        <img id="profilephoto"  src="assets/images/ege.png" height="132" width="172">
-        
-                        <p class="satir">
-                        Senior business leader with modern full stack web development expertise. 
-                        </p> 
-                     
-                        <p class="satir">
-                        
+ 
+                     <form action="#" method="post">
+                        <div>
+                            <label for="Name">Name:</label>    
+                            <input type="text" id="name" name="user_name">
 
-                        Global business management experience with Profit and Loss ownership. Experience in building businesses from scratch, including setting the strategy, working on ROI, hiring, establishing and managing teams. 
+                        </div>
+                        <div>
+                            <label for="Email">Email:</label>    
+                            <input type="text" id="email" name="user_email">   
 
-                        Global business management experience with P&L ownership. Experience in building businesses from scratch, including setting the strategy, working on ROI, hiring, establishing and managing teams. 
+                        </div>
+                        <div>
+                            <label for="Message">Message:</label>    
+                            <textarea id="message" name="user_message"></textarea>    
+
+                        </div>
+                        <div class="button">
+                            <button type="submit">Send your message</button>
+                        </div>
+
+                     </form>
 
 
-                        </p>
 
-                        <p class="satir">
-                        
-                        Latest projects include an online Silicon Valley innovation map, enterprise sales management tool and a business strategy platform.  
-
-                        </p>
                     </div>
             </section>
 
